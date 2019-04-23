@@ -1,6 +1,8 @@
 html {
   height: 100%;
-  background: #d7d7d7;
+  background: #BBD2C5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #536976, #BBD2C5);
+  background: linear-gradient(to right, #536976, #BBD2C5);
   font-family: 'PT Mono', monospace;
 }
 body {
