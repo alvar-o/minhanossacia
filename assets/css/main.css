@@ -1,4 +1,23 @@
+html {
+  height: 100%;
+  background: #d7d7d7;
+  font-family: 'PT Mono', monospace;
+}
 body {
-  background: #fff4cd;
-  font-family: 'Andale Mono', monospace;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background: black;
+  color: white;
 }
