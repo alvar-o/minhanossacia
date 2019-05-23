@@ -1,25 +1,84 @@
-html {
-  height: 100%;
-  background: #BBD2C5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #536976, #BBD2C5);
-  background: linear-gradient(to right, #536976, #BBD2C5);
-  font-family: 'PT Mono', monospace;
-}
+@import url('https://fonts.googleapis.com/css?family=Anton|Oswald:300,500&display=swap');
+
 body {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.container {
-  width: 400px;
-  padding: 20px;
   background: black;
+  margin: 0;
+  font-family: Oswald, 'Arial Narrow', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+a:hover {
+  background-color: rgb(0, 0, 238);
+  box-shadow: 0 0 0 5px rgb(0, 0, 238);
   color: white;
 }
+
+main {
+  padding: 4rem;
+}
+
+h1#page-title {
+  font-family: Anton;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 5rem;
+  color: #FFFFFF;
+  display: block;
+  margin: 3rem auto;
+}
+
+img#logo-landing {
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.landing-nav ul {
+  color: white;
+  list-style: none;
+  padding: 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 4rem;
+}
+.landing-nav a {
+  color: white;
+  text-decoration: underline;
+}
+
+.landing-footer {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  padding: 3rem 4rem 1rem;
+  clip-path: polygon(0 14vw, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 14vw, 100% 0, 100% 100%, 0 100%);
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.landing-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  /* grid-template-columns: repeat(4, 1fr); */
+  font-size: 3rem;
+  line-height: 3rem;
+
+}
+.landing-footer li {
+  margin-left: 1.8rem;
+}
+/* #logo-footer {
+ width: 100%;
+} */
